@@ -1,0 +1,802 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@localhost">
+  <database-model serializer="dbm" rdbms="ORACLE" format-version="4.2">
+    <root id="1"/>
+    <schema id="2" parent="1" name="HOTE">
+      <ObjectId>92</ObjectId>
+      <IntrospectionTimestamp>2018-02-26.17:51:46</IntrospectionTimestamp>
+      <CreatedTimestamp>2018-01-16.11:06:09</CreatedTimestamp>
+      <ModifiedTimestamp>2018-02-26.17:51:45</ModifiedTimestamp>
+      <CommentsHash>176768747253140</CommentsHash>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="SYSTEM">
+      <ObjectId>5</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="OUTLN">
+      <ObjectId>9</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="DIP">
+      <ObjectId>14</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="ORACLE_OCM">
+      <ObjectId>21</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="DBSNMP">
+      <ObjectId>30</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="APPQOSSYS">
+      <ObjectId>31</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="WMSYS">
+      <ObjectId>32</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="EXFSYS">
+      <ObjectId>42</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="CTXSYS">
+      <ObjectId>43</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="XDB">
+      <ObjectId>45</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="ANONYMOUS">
+      <ObjectId>46</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="ORDSYS">
+      <ObjectId>53</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="ORDDATA">
+      <ObjectId>54</ObjectId>
+    </schema>
+    <schema id="18" parent="1" name="ORDPLUGINS">
+      <ObjectId>55</ObjectId>
+    </schema>
+    <schema id="19" parent="1" name="SI_INFORMTN_SCHEMA">
+      <ObjectId>56</ObjectId>
+    </schema>
+    <schema id="20" parent="1" name="MDSYS">
+      <ObjectId>57</ObjectId>
+    </schema>
+    <schema id="21" parent="1" name="OLAPSYS">
+      <ObjectId>61</ObjectId>
+    </schema>
+    <schema id="22" parent="1" name="MDDATA">
+      <ObjectId>65</ObjectId>
+    </schema>
+    <schema id="23" parent="1" name="SPATIAL_WFS_ADMIN_USR">
+      <ObjectId>67</ObjectId>
+    </schema>
+    <schema id="24" parent="1" name="SPATIAL_CSW_ADMIN_USR">
+      <ObjectId>70</ObjectId>
+    </schema>
+    <schema id="25" parent="1" name="SYSMAN">
+      <ObjectId>72</ObjectId>
+    </schema>
+    <schema id="26" parent="1" name="MGMT_VIEW">
+      <ObjectId>74</ObjectId>
+    </schema>
+    <schema id="27" parent="1" name="FLOWS_FILES">
+      <ObjectId>75</ObjectId>
+    </schema>
+    <schema id="28" parent="1" name="APEX_PUBLIC_USER">
+      <ObjectId>76</ObjectId>
+    </schema>
+    <schema id="29" parent="1" name="APEX_030200">
+      <ObjectId>78</ObjectId>
+    </schema>
+    <schema id="30" parent="1" name="OWBSYS">
+      <ObjectId>79</ObjectId>
+    </schema>
+    <schema id="31" parent="1" name="OWBSYS_AUDIT">
+      <ObjectId>83</ObjectId>
+    </schema>
+    <schema id="32" parent="1" name="SCOTT">
+      <ObjectId>84</ObjectId>
+    </schema>
+    <schema id="33" parent="1" name="HR">
+      <ObjectId>85</ObjectId>
+    </schema>
+    <schema id="34" parent="1" name="OE">
+      <ObjectId>86</ObjectId>
+    </schema>
+    <schema id="35" parent="1" name="IX">
+      <ObjectId>87</ObjectId>
+    </schema>
+    <schema id="36" parent="1" name="SH">
+      <ObjectId>88</ObjectId>
+    </schema>
+    <schema id="37" parent="1" name="PM">
+      <ObjectId>89</ObjectId>
+    </schema>
+    <schema id="38" parent="1" name="BI">
+      <ObjectId>90</ObjectId>
+    </schema>
+    <schema id="39" parent="1" name="LICHANGAN">
+      <ObjectId>91</ObjectId>
+    </schema>
+    <schema id="40" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+    <sequence id="41" parent="2" name="CC_DEPT_SEQ">
+      <ObjectId>76672</ObjectId>
+      <CreatedTimestamp>2018-01-17.20:11:10</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-17.20:11:10</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="42" parent="2" name="CC_EMP_SEQ">
+      <ObjectId>76673</ObjectId>
+      <CreatedTimestamp>2018-01-17.20:11:42</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-17.20:11:42</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="43" parent="2" name="DEPT_SEQ">
+      <ObjectId>77204</ObjectId>
+      <CreatedTimestamp>2018-01-31.17:08:43</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-31.17:08:43</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="44" parent="2" name="EMP_SEQ">
+      <ObjectId>77205</ObjectId>
+      <CreatedTimestamp>2018-01-31.17:08:59</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-31.17:08:59</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="45" parent="2" name="T_DINNER_TABLE_SEQ">
+      <ObjectId>76573</ObjectId>
+      <CreatedTimestamp>2018-01-16.11:23:51</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-16.11:23:51</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="46" parent="2" name="T_FOOD_SEQ">
+      <ObjectId>76580</ObjectId>
+      <CreatedTimestamp>2018-01-16.11:53:42</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-16.11:53:42</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="47" parent="2" name="T_FOOD_TYPE_SEQ">
+      <ObjectId>76578</ObjectId>
+      <CreatedTimestamp>2018-01-16.11:53:32</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-16.11:53:32</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="48" parent="2" name="T_ORDERS_SEQ">
+      <ObjectId>76579</ObjectId>
+      <CreatedTimestamp>2018-01-16.11:53:37</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-16.11:53:37</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="49" parent="2" name="T_ORDER_DETAIL_SEQ">
+      <ObjectId>76574</ObjectId>
+      <CreatedTimestamp>2018-01-16.11:26:03</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-16.11:26:03</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="50" parent="2" name="T_PRODUCT_INFO_SEQ">
+      <ObjectId>76901</ObjectId>
+      <CreatedTimestamp>2018-01-24.19:05:04</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-24.19:05:04</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="51" parent="2" name="T_SYS_LOG_SEQ">
+      <ObjectId>77407</ObjectId>
+      <CreatedTimestamp>2018-02-06.15:36:10</CreatedTimestamp>
+      <ModifiedTimestamp>2018-02-06.15:36:10</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="52" parent="2" name="T_USER_SEQ">
+      <ObjectId>77495</ObjectId>
+      <CreatedTimestamp>2018-02-26.17:51:45</CreatedTimestamp>
+      <ModifiedTimestamp>2018-02-26.17:51:45</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <table id="53" parent="2" name="CC_DEPT">
+      <ObjectId>76671</ObjectId>
+      <CreatedTimestamp>2018-01-17.20:09:41</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-17.20:09:41</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="54" parent="2" name="CC_EMP">
+      <ObjectId>76669</ObjectId>
+      <CreatedTimestamp>2018-01-17.20:09:41</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-17.20:09:41</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="55" parent="2" name="DEPT">
+      <ObjectId>77200</ObjectId>
+      <CreatedTimestamp>2018-01-31.17:01:14</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-31.17:01:20</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="56" parent="2" name="EMP">
+      <ObjectId>77202</ObjectId>
+      <CreatedTimestamp>2018-01-31.17:01:33</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-31.17:01:45</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="57" parent="2" name="T_DINNER_TABLE">
+      <ObjectId>76566</ObjectId>
+      <Comment>餐桌表</Comment>
+      <CreatedTimestamp>2018-01-16.11:06:09</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-27.18:59:26</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="58" parent="2" name="T_FOOD">
+      <ObjectId>76581</ObjectId>
+      <CreatedTimestamp>2018-01-16.19:27:35</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-16.19:27:35</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="59" parent="2" name="T_FOOD_TYPE">
+      <ObjectId>76568</ObjectId>
+      <Comment> 菜类</Comment>
+      <CreatedTimestamp>2018-01-16.11:09:07</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-17.08:24:44</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="60" parent="2" name="T_MENU">
+      <ObjectId>77403</ObjectId>
+      <Comment>菜单表</Comment>
+      <CreatedTimestamp>2018-02-05.19:16:05</CreatedTimestamp>
+      <ModifiedTimestamp>2018-02-05.19:16:05</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="61" parent="2" name="T_ORDERS">
+      <ObjectId>76570</ObjectId>
+      <Comment>订单 </Comment>
+      <CreatedTimestamp>2018-01-16.11:18:20</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-19.11:17:52</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="62" parent="2" name="T_ORDER_DETAIL">
+      <ObjectId>76571</ObjectId>
+      <Comment>订单明细</Comment>
+      <CreatedTimestamp>2018-01-16.11:20:53</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-26.11:43:27</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="63" parent="2" name="T_PRODUCT_INFO">
+      <ObjectId>76899</ObjectId>
+      <CreatedTimestamp>2018-01-24.18:56:42</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-24.20:39:08</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="64" parent="2" name="T_SYS_LOG">
+      <ObjectId>77405</ObjectId>
+      <Comment>系统日志</Comment>
+      <CreatedTimestamp>2018-02-06.15:08:11</CreatedTimestamp>
+      <ModifiedTimestamp>2018-02-06.15:08:11</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="65" parent="2" name="T_USER">
+      <ObjectId>77401</ObjectId>
+      <Comment>用户表</Comment>
+      <CreatedTimestamp>2018-02-05.16:06:23</CreatedTimestamp>
+      <ModifiedTimestamp>2018-02-05.16:06:23</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <column id="66" parent="53" name="DEPTNO">
+      <Position>1</Position>
+      <DataType>NUMBER(19)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="67" parent="53" name="DNAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(255 char)|0</DataType>
+    </column>
+    <column id="68" parent="53" name="LOC">
+      <Position>3</Position>
+      <DataType>VARCHAR2(255 char)|0</DataType>
+    </column>
+    <column id="69" parent="54" name="EMPNO">
+      <Position>1</Position>
+      <DataType>NUMBER(19)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="70" parent="54" name="COMM">
+      <Position>2</Position>
+      <DataType>NUMBER(19)|0</DataType>
+    </column>
+    <column id="71" parent="54" name="ENAME">
+      <Position>3</Position>
+      <DataType>VARCHAR2(255 char)|0</DataType>
+    </column>
+    <column id="72" parent="54" name="HIREDATE">
+      <Position>4</Position>
+      <DataType>DATE|0</DataType>
+    </column>
+    <column id="73" parent="54" name="JOB">
+      <Position>5</Position>
+      <DataType>VARCHAR2(255 char)|0</DataType>
+    </column>
+    <column id="74" parent="54" name="SAL">
+      <Position>6</Position>
+      <DataType>NUMBER(19)|0</DataType>
+    </column>
+    <index id="75" parent="54" name="SYS_C0011970">
+      <ObjectId>76670</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-01-17.20:09:41</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-17.20:09:41</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>EMPNO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="76" parent="54" name="SYS_C0011970">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-01-17.20:09:41</ModifiedTimestamp>
+      <ColNames>EMPNO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0011970</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="77" parent="55" name="DEPTNO">
+      <Position>1</Position>
+      <DataType>NUMBER(2)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="78" parent="55" name="DNAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(14)|0</DataType>
+    </column>
+    <column id="79" parent="55" name="LOC">
+      <Position>3</Position>
+      <DataType>VARCHAR2(13)|0</DataType>
+    </column>
+    <index id="80" parent="55" name="SYS_C0012302">
+      <ObjectId>77201</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-01-31.17:01:20</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-31.17:01:20</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>DEPTNO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="81" parent="55" name="SYS_C0012302">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-01-31.17:01:20</ModifiedTimestamp>
+      <ColNames>DEPTNO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0012302</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="82" parent="56" name="EMPNO">
+      <Position>1</Position>
+      <DataType>NUMBER(4)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="83" parent="56" name="ENAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(10)|0</DataType>
+    </column>
+    <column id="84" parent="56" name="JOB">
+      <Position>3</Position>
+      <DataType>VARCHAR2(9)|0</DataType>
+    </column>
+    <column id="85" parent="56" name="MGR">
+      <Position>4</Position>
+      <DataType>NUMBER(4)|0</DataType>
+    </column>
+    <column id="86" parent="56" name="HIREDATE">
+      <Position>5</Position>
+      <DataType>DATE|0</DataType>
+    </column>
+    <column id="87" parent="56" name="SAL">
+      <Position>6</Position>
+      <DataType>NUMBER(7,2)|0</DataType>
+    </column>
+    <column id="88" parent="56" name="COMM">
+      <Position>7</Position>
+      <DataType>NUMBER(7,2)|0</DataType>
+    </column>
+    <column id="89" parent="56" name="DEPTNO">
+      <Position>8</Position>
+      <DataType>NUMBER(2)|0</DataType>
+    </column>
+    <index id="90" parent="56" name="SYS_C0012304">
+      <ObjectId>77203</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-01-31.17:01:45</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-31.17:01:45</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>EMPNO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="91" parent="56" name="SYS_C0012304">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-01-31.17:01:45</ModifiedTimestamp>
+      <ColNames>EMPNO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0012304</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="92" parent="56" name="SYS_C0012305">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-01-31.17:01:45</ModifiedTimestamp>
+      <ColNames>MGR</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>EMP</RefTableName>
+      <RefKeyName>SYS_C0012304</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="93" parent="56" name="SYS_C0012306">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-01-31.17:01:45</ModifiedTimestamp>
+      <ColNames>DEPTNO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>DEPT</RefTableName>
+      <RefKeyName>SYS_C0012302</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="94" parent="57" name="DID">
+      <Position>1</Position>
+      <Comment>主键ID</Comment>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="95" parent="57" name="TABLE_NAME">
+      <Position>2</Position>
+      <Comment>餐桌名</Comment>
+      <DataType>VARCHAR2(50)|0</DataType>
+    </column>
+    <column id="96" parent="57" name="TABLE_STATER">
+      <Position>3</Position>
+      <Comment>餐桌状态</Comment>
+      <DataType>NUMBER(1)|0</DataType>
+    </column>
+    <column id="97" parent="57" name="ORDER_DATE">
+      <Position>4</Position>
+      <Comment>预定时间</Comment>
+      <DataType>DATE|0</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <index id="98" parent="57" name="SYS_C0011941">
+      <ObjectId>76567</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-01-16.11:06:09</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-16.11:06:09</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>DID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="99" parent="57" name="SYS_C0011941">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-01-16.11:06:09</ModifiedTimestamp>
+      <ColNames>DID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0011941</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="100" parent="58" name="FOOD_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="101" parent="58" name="FOOD_NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(20)|0</DataType>
+    </column>
+    <column id="102" parent="58" name="FOOD_TYPE_ID">
+      <Position>3</Position>
+      <DataType>NUMBER(10)|0</DataType>
+    </column>
+    <column id="103" parent="58" name="PRICE">
+      <Position>4</Position>
+      <DataType>NUMBER(5,2)|0</DataType>
+    </column>
+    <column id="104" parent="58" name="MPRICE">
+      <Position>5</Position>
+      <DataType>NUMBER(5,2)|0</DataType>
+    </column>
+    <column id="105" parent="58" name="REMARK">
+      <Position>6</Position>
+      <DataType>VARCHAR2(4000)|0</DataType>
+    </column>
+    <column id="106" parent="58" name="IMG">
+      <Position>7</Position>
+      <DataType>VARCHAR2(1000)|0</DataType>
+    </column>
+    <index id="107" parent="58" name="SYS_C0011946">
+      <ObjectId>76582</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-01-16.19:27:35</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-16.19:27:35</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>FOOD_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="108" parent="58" name="SYS_C0011946">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-01-16.19:27:35</ModifiedTimestamp>
+      <ColNames>FOOD_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0011946</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="109" parent="59" name="FID">
+      <Position>1</Position>
+      <Comment>菜类id </Comment>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="110" parent="59" name="TYPE_NAME">
+      <Position>2</Position>
+      <Comment>菜名</Comment>
+      <DataType>VARCHAR2(50)|0</DataType>
+    </column>
+    <index id="111" parent="59" name="T_FOOD_TYPE_Fid _pk">
+      <ObjectId>76576</ObjectId>
+      <CreatedTimestamp>2018-01-16.11:49:51</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-16.11:49:51</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>FID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="112" parent="59" name="T_FOOD_TYPE_Fid _pk">
+      <ModifiedTimestamp>2018-01-16.11:49:51</ModifiedTimestamp>
+      <ColNames>FID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>T_FOOD_TYPE_Fid _pk</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="113" parent="60" name="MENU_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(9)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="114" parent="60" name="MENU_NAME">
+      <Position>2</Position>
+      <Comment>菜单名称</Comment>
+      <DataType>VARCHAR2(50)|0</DataType>
+    </column>
+    <column id="115" parent="60" name="MENU_URL">
+      <Position>3</Position>
+      <Comment>菜单访问地址</Comment>
+      <DataType>VARCHAR2(200)|0</DataType>
+    </column>
+    <column id="116" parent="60" name="MENU_ORDER">
+      <Position>4</Position>
+      <Comment>菜单优先级，越小优先级越高</Comment>
+      <DataType>NUMBER(9)|0</DataType>
+    </column>
+    <index id="117" parent="60" name="SYS_C0012448">
+      <ObjectId>77404</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-02-05.19:16:05</CreatedTimestamp>
+      <ModifiedTimestamp>2018-02-05.19:16:05</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>MENU_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="118" parent="60" name="SYS_C0012448">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-02-05.19:16:05</ModifiedTimestamp>
+      <ColNames>MENU_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0012448</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="119" parent="61" name="OID">
+      <Position>1</Position>
+      <Comment>订单id</Comment>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="120" parent="61" name="TABLE_ID">
+      <Position>2</Position>
+      <Comment>餐桌id</Comment>
+      <DataType>NUMBER(10)|0</DataType>
+    </column>
+    <column id="121" parent="61" name="ORDER_DATE">
+      <Position>3</Position>
+      <Comment>预定时间</Comment>
+      <DataType>TIMESTAMP(6)|0</DataType>
+    </column>
+    <column id="122" parent="61" name="TOTAL_PRICE">
+      <Position>4</Position>
+      <Comment>总金额</Comment>
+      <DataType>NUMBER(6,2)|0</DataType>
+    </column>
+    <column id="123" parent="61" name="ORDER_STATE">
+      <Position>5</Position>
+      <Comment>0 未结账 1 已结账 </Comment>
+      <DataType>NUMBER(1)|0</DataType>
+    </column>
+    <index id="124" parent="61" name="T_orders _Oid _pk">
+      <ObjectId>76577</ObjectId>
+      <CreatedTimestamp>2018-01-16.11:50:13</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-16.11:50:13</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>OID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="125" parent="61" name="T_orders _Oid _pk">
+      <ModifiedTimestamp>2018-01-16.11:50:13</ModifiedTimestamp>
+      <ColNames>OID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>T_orders _Oid _pk</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="126" parent="62" name="DETAIL_ID">
+      <Position>1</Position>
+      <Comment>主键 </Comment>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="127" parent="62" name="ORDER_ID">
+      <Position>2</Position>
+      <Comment>订单ID</Comment>
+      <DataType>NUMBER(10)|0</DataType>
+    </column>
+    <column id="128" parent="62" name="FOOD_ID">
+      <Position>3</Position>
+      <Comment>食物ID</Comment>
+      <DataType>NUMBER(10)|0</DataType>
+    </column>
+    <column id="129" parent="62" name="FOOD_COUNT">
+      <Position>4</Position>
+      <Comment>食物数量</Comment>
+      <DataType>NUMBER(10)|0</DataType>
+    </column>
+    <index id="130" parent="62" name="SYS_C0011942">
+      <ObjectId>76572</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-01-16.11:20:53</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-16.11:20:53</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>DETAIL_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="131" parent="62" name="SYS_C0011942">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-01-16.11:20:53</ModifiedTimestamp>
+      <ColNames>DETAIL_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0011942</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="132" parent="63" name="PRODUCE_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="133" parent="63" name="PRODUCE_NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(50)|0</DataType>
+    </column>
+    <column id="134" parent="63" name="PRODUCE_PRICE">
+      <Position>3</Position>
+      <DataType>NUMBER(5,2)|0</DataType>
+    </column>
+    <column id="135" parent="63" name="PRODUCE_STOCK">
+      <Position>4</Position>
+      <DataType>NUMBER(10)|0</DataType>
+    </column>
+    <column id="136" parent="63" name="PRODUCE_DESCRIPTION">
+      <Position>5</Position>
+      <DataType>VARCHAR2(100)|0</DataType>
+    </column>
+    <column id="137" parent="63" name="PRODUCE_ICON">
+      <Position>6</Position>
+      <DataType>VARCHAR2(400)|0</DataType>
+    </column>
+    <column id="138" parent="63" name="PRODUCE_STATUS">
+      <Position>7</Position>
+      <DataType>NUMBER(1)|0</DataType>
+    </column>
+    <column id="139" parent="63" name="CATEGORY_TYPE">
+      <Position>8</Position>
+      <DataType>NUMBER(20)|0</DataType>
+    </column>
+    <column id="140" parent="63" name="CREATE_TIME">
+      <Position>9</Position>
+      <DataType>DATE|0</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <column id="141" parent="63" name="UPDATE_TIME">
+      <Position>10</Position>
+      <DataType>DATE|0</DataType>
+      <DefaultExpression>NULL</DefaultExpression>
+    </column>
+    <index id="142" parent="63" name="SYS_C0012139">
+      <ObjectId>76900</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-01-24.18:56:42</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-24.18:56:42</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>PRODUCE_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="143" parent="63" name="SYS_C0012139">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-01-24.18:56:42</ModifiedTimestamp>
+      <ColNames>PRODUCE_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0012139</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="144" parent="64" name="LOG_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(9)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="145" parent="64" name="LOG_CONTENT">
+      <Position>2</Position>
+      <Comment>日志内容</Comment>
+      <DataType>VARCHAR2(1000)|0</DataType>
+    </column>
+    <column id="146" parent="64" name="CREATE_USER">
+      <Position>3</Position>
+      <Comment>操作用户</Comment>
+      <DataType>VARCHAR2(200)|0</DataType>
+    </column>
+    <column id="147" parent="64" name="CREATE_TIME">
+      <Position>4</Position>
+      <Comment>创建时间</Comment>
+      <DataType>TIMESTAMP(6)|0</DataType>
+    </column>
+    <column id="148" parent="64" name="REMARK">
+      <Position>5</Position>
+      <Comment>备注</Comment>
+      <DataType>VARCHAR2(200)|0</DataType>
+    </column>
+    <index id="149" parent="64" name="SYS_C0012449">
+      <ObjectId>77406</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-02-06.15:08:11</CreatedTimestamp>
+      <ModifiedTimestamp>2018-02-06.15:08:11</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>LOG_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="150" parent="64" name="SYS_C0012449">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-02-06.15:08:11</ModifiedTimestamp>
+      <ColNames>LOG_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0012449</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="151" parent="65" name="USER_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(9)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="152" parent="65" name="USER_NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(200)|0</DataType>
+    </column>
+    <column id="153" parent="65" name="USER_PSW">
+      <Position>3</Position>
+      <DataType>VARCHAR2(200)|0</DataType>
+    </column>
+    <column id="154" parent="65" name="FACE_URL">
+      <Position>4</Position>
+      <DataType>VARCHAR2(200)|0</DataType>
+    </column>
+    <index id="155" parent="65" name="SYS_C0012447">
+      <ObjectId>77402</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-02-05.16:06:23</CreatedTimestamp>
+      <ModifiedTimestamp>2018-02-05.16:06:23</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>USER_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="156" parent="65" name="SYS_C0012447">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-02-05.16:06:23</ModifiedTimestamp>
+      <ColNames>USER_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0012447</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
